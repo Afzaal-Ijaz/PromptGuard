@@ -1,0 +1,33 @@
+# Virtual env
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Tests / tools
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ML model caches (Presidio / Transformers)
+.cache/
+models/
+*.bin
+*.safetensors
+*.onnx
+
+# OS / IDE
+Thumbs.db
+Desktop.ini
+.idea/
