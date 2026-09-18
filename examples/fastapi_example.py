@@ -5,7 +5,7 @@ from promptguard.middleware import GuardMiddleware
 
 app = FastAPI(title="LLM-Flow Testing App")
 
- # secure the entire API
+# secure the entire API
 app.add_middleware(GuardMiddleware)
 
 
